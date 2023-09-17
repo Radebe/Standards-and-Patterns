@@ -34,9 +34,12 @@ namespace Controllers
             {
                 return NotFound();
             }
+            var customers = _orderRepository.GetAllOrders();
+            ViewData["CustomerId"] = new SelectList(customers, "CustomerId", "CustomerId", order.CustomerId);
             return View(order);
         }
 
+        //Get
         public IActionResult Create()
         {
             var customers = _orderRepository.GetAllOrders();
