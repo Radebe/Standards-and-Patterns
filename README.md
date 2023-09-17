@@ -8,3 +8,5 @@ Instructions on how to use the application:
 4. Click the Orders tab to add new order, or update, delete or view details of an existing order.
 5. Click the Customers tab to add new customer, or update, delete or view details of an existing customer.
    
+Project domain name:
+37266500-project3-ecopowerlogistics.azurewebsites.net
